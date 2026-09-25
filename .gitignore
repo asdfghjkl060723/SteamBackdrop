@@ -1,0 +1,12 @@
+# 依赖 / Dependencies
+node_modules/
+
+# 构建产物 / Build artifacts
+out/
+dist-index.js
+.millennium/
+
+# 运行时生成 / Runtime files
+settings.json
+media/
+*.log

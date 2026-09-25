@@ -1,0 +1,12 @@
+[plugin]
+id = "steambackdrop"
+name = "SteamBackdrop"
+version = "1.0.0"
+author = "kimi-code"
+description = "给 Steam 窗口换上自定义壁纸：自动扫描 Wallpaper Engine 壁纸（工坊订阅 + 本地项目），也支持把任意图片/视频放进插件 media 文件夹使用。可调透明度、生效范围（库主页/游戏详情页/其他页面）。"
+
+[frontend]
+entry = "frontend/index.tsx"
+
+[compiler]
+output_path = "out"
